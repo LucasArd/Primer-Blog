@@ -13,19 +13,18 @@ muestra todos los pasajeros, pilotos y/o azafatas con ese apellido.
 #----------------------------------------------------------------------------------------------------------------------
 
 - Creamos CRUD por Vista de:
-pasajeros, azafatas y pilotos
+pasajeros, azafatas, pilotos y personal administrativo
 
 - Modificando Settings.py a:
 DEBUG = False
 ALLOWED_HOSTS = ["*"]
 
 - Agregamos ruta de STATIC para que pueda obtener los archivos de STATIC ya que si no hacemos esto la pagina carga sin static files
-STATICFILES_DIRS = [
-    BASE_DIR / "C:/Users/luqas/Desktop/ProyectoFinalClone/Primer-Blog/AppAero/static", 
-]
 
 - Creamos vista, url y template ABOUT/ en donde hablamos de nosotros los desarrolladores. Ademas agregamos boton de redireccionamiento
 
 - Cambiamos el Model BOLETO por PERSONAL ADMINISTRATIVO, para darle mas sentido a la pagina. Esto conlleva la modificacion de las views, urls, base de datos, formularios, etc.
 
 - Se crea  INICIO con direccionammiento directo desde localhost, aunque tambien se deja INICIO desde AppAero/INICIO. 
+
+- Se crea y perfecciona creado del Perfil y edicion del mismo.
