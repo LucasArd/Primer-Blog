@@ -3,14 +3,26 @@ http://127.0.0.1:8000/
 o tambien http://127.0.0.1:8000/AppAero
 
 
-- En el header están las cuatro opciones que llevan a las distintas clases (pasajeros, azafatas, pilotos y boletos), y
-también la función de busqueda.
+- En el header están las cuatro opciones que llevan a las distintas clases (pasajeros,
+azafatas, pilotos y personal administrativo), la función de busqueda y la de registrarse.
+Una vez registrado, la opción de registrarse cambia a una vista de tú perfil.
 
-- Haciendo click en las primeras cuatro opciones mencionadas lleva al usuario a un formulario donde puede insertar
-datos de un nuevo objeto que pertenezca al modelo seleccionado.
+- Haciendo click en las primeras cuatro opciones mencionadas lleva al usuario a un
+formulario donde puede insertar datos de un nuevo objeto que pertenezca al modelo
+seleccionado, pero solo si está registrado como usuario. De lo contrario, solo podrá añadir
+datos de pasajeros.
 
-- Haciendo click en el botón "Busqueda", el usuario puede ingresar el apellido de la persona que busca. El sistema
-muestra todos los pasajeros, pilotos y/o azafatas con ese apellido.
+- Haciendo click en el botón "Busqueda", y si el usuario está registrado, el usuario puede
+ingresar el apellido de la persona que busca. El sistema muestra todos los pasajeros,
+pilotos y/o azafatas con ese apellido. Desde esta misma página también se pueden ver listas
+con todos los pasajeros, pilotos o azafatas registrados. A partir de estas listas se pueden
+modificar o borrar la información de los mismos.
+
+- En http://127.0.0.1:8000/AppAero/about hay informacion sobre nosotros, los creadores de
+la página.
+
+- Si se ingresa en la barra de busqueda una URL no reconocida, lleva a una página 404 que
+permite volver al inicio.
 
 #----------------------------------------------------------------------------------------------------------------------
 
