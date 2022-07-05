@@ -1,5 +1,7 @@
 - La página principal es:
-http://127.0.0.1:8000/AppAero/
+http://127.0.0.1:8000/
+o tambien http://127.0.0.1:8000/AppAero
+
 
 - En el header están las cuatro opciones que llevan a las distintas clases (pasajeros, azafatas, pilotos y boletos), y
 también la función de busqueda.
